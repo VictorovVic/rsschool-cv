@@ -9,7 +9,7 @@
 * **Email:** [4342718@gmail.com](4342718@gmail.com)
 * **GitHub:** [VictorovVic](https://github.com/VictorovVic)
 
-## About Me
+## Summary
 
 I have been working in sales for many years. Currently I want to change my field of activity. 
 I am fond of programming since school. Now I have some free time on my hands, 
@@ -21,7 +21,7 @@ which I would like to use for training in the field of web development.
 * **CSS**
 * **JavaScript**
 * **Git, GitHub**
-* **Linux (Ubuntu)**
+* **Linux**
 * **Postgres**
 * **PHP**
 

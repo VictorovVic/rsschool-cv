@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <title>Document</title>
 </head>
+
 <body>
-    Hello! World!
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section-profile" id="profile">
+        <img src="./assets/img/hummel.jpg" alt="There was a bumblebee here." class="logo">
+        <div class="profile-title">
+          <h1 class="main-title">VICTOR GRIGOREV</h1>
+          <h3 class="subtitle">Junior Front-End Developer</h3>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>Location: Saint-Petersburg, Russia</li>
+          <li>Phone: +7(911)149 38 90</li>
+          <li>Email:<a href="mailto:4342718@gmail.com" class="nav-link">4342718@gmail.com</a></li>
+          <li>Github:<a href="https://github.com/VictorovVic" class="nav-link">VictorovVic</a></li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I have been working in sales for many years. Currently I want to change my field of activity.
+          I am fond of programming since school. Now I have some free time on my hands,
+          which I would like to use for training in the field of web development.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git, Github</li>
+          <li>Linux</li>
+          <li>PHP</li>
+          <li>Postgres</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre"><code>const f = (n) => {
+    if (n === 0) {
+      return 0;
+    }
+    if (n === 1) {
+      return 1;
+    }
+    return f(n - 1) + f(n - 2);
+  }
+  f(100);
+    </code>
+      </pre>
+      </section>
+      <section class="section" id="Experience">
+        <h2 class="section-title">Experience</h2>
+        <p>
+          Worked in sales for various companies supplying alcohol to the Horeca channel.
+        </p>
+      </section>
+      <section class="section" id="Education">
+        <h2 class="section-title">Education</h2>
+        <p>Russian State Hydrometeorological University</p>
+      </section>
+      <section class="section english" id="English">
+        <h2 class="section-title">English</h2>
+        <p>A1</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2023 <a href="https://github.com/VictorovVic" class="nav-link">VictorovVic</a></div>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
 </body>
+
 </html>

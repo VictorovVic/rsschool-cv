@@ -1,16 +1,134 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto.ttf");
 }
-table {
-    border-collapse: collapse;
+
+* {
+  box-sizing: border-box;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+
+html {
+  scroll-behavior: smooth;
 }
-table.border th {
-    background: #e0e0e0;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #421f1f;
+}
+
+
+.header {
+  background-color: rgb(158, 153, 153);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  transition: .3s;
+  text-decoration: none;
+  color: rgb(88, 87, 87);
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: #d2e7d5;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: 300;
+  color: rgb(58, 56, 56);
+}
+
+.subtitle {
+  color: #5d7260;
+  font-size: 20px;
+
+}
+
+.section {
+  width: calc(50% - 50px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #5d7260;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 5px solid #5d7260;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.english {
+  border-bottom: none;
+}
+
+.rss {
+  width: 120px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-repeat: no-repeat;
+}
+
+.pre {
+  line-height: 20px;
+  word-spacing: -2px;
+  margin: 0;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(158, 153, 153);
+  padding: 20px;
 }
